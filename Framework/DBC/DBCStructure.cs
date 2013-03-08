@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (C) 2012-2013 Arctium <http://arctium.org>
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -44,6 +44,586 @@ namespace Framework.DBC
     };
 
 
+    public struct Achievement
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        
+    };
+
+
+    public struct AchievementCategory
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+    };
+
+
+    public struct AchievementCriteria
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+        public uint field16;
+        public uint field17;
+        public uint field18;
+        public uint field19;
+        public uint field20;
+        public uint field21;
+        public uint field22;
+        public uint field23;
+    };
+
+
+    public struct AnimationData
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct AnimKit
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct AnimKitBoneSet
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct AnimKitBoneSetAlias
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct AnimKitConfig
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct AnimKitConfigBoneSet
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+    };
+
+
+    public struct AnimKitPriority
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct AnimKitSegment
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+    };
+
+
+    public struct AnimReplacement
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+    };
+
+
+    public struct AnimReplacementSet
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct AreaAssignment
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+    };
+
+
+    public struct AreaGroup
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+    };
+
+
+    public struct AreaPOI
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+        public uint field16;
+        public uint field17;
+        public uint field18;
+        public uint field19;
+        public uint field20;
+        public uint field21;
+        public uint field22;
+    };
+
+
+    public struct AreaTable
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+        public uint field16;
+        public uint field17;
+        public uint field18;
+        public uint field19;
+        public uint field20;
+        public uint field21;
+        public uint field22;
+        public uint field23;
+        public uint field24;
+        public uint field25;
+        public uint field26;
+        public uint field27;
+        public uint field28;
+        public uint field29;
+    };
+
+
+    public struct AreaTrigger
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+    };
+
+
+    public struct AreaTriggerActionSet
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct AreaTriggerBox
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+    };
+
+
+    public struct AreaTriggerSphere
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct ArmorLocation
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct AttackAnimKits
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+    };
+
+
+    public struct AttackAnimTypes
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct AuctionHouse
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+    };
+
+
+    public struct BankBagSlotPrices
+    {
+        public uint id;
+        public uint field1;
+    };
+
+
+    public struct BannedAddOns
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+    };
+
+
+    public struct BarberShopStyle
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+    };
+
+
+    public struct BattleMasterList
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+        public uint field16;
+        public uint field17;
+        public uint field18;
+        public uint field19;
+        public uint field20;
+        public uint field21;
+    };
+
+
+    public struct CameraMode
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+        public uint field10;
+        public uint field11;
+        public uint field12;
+        public uint field13;
+        public uint field14;
+        public uint field15;
+        public uint field16;
+    };
+
+
+    public struct CameraShakes
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+    };
+
+
+    public struct CastableRaidBuffs
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct CfgCategories
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct CfgConfigs
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct CfgRegions
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct CharacterFacialHairStyles
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+    };
+
+
+    public struct CharacterLoadout
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+    };
+
+
+    public struct CharacterLoadoutItem
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+    };
+
+
+    public struct CharBaseInfo
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct CharComponentTextureLayouts
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
+    public struct CharComponentTextureSections
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+    };
+
+
+    public struct CharHairGeosets
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+    };
+
+
+    public struct CharSections
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+        public uint field6;
+        public uint field7;
+        public uint field8;
+        public uint field9;
+    };
+
+        public struct CharTitles
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+        public uint field5;
+    };
+
+
+    public struct ChatChannels
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+        public uint field3;
+        public uint field4;
+    };
+
+
+    public struct ChatProfanity
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
+    };
+
+
     public struct ChrClasses
     {
         public uint ClassID;                                    // 0        m_ID
@@ -68,6 +648,14 @@ namespace Framework.DBC
         {
             get { return DBCStorage.ClassStrings.LookupByKey(_name); }
         }
+    };
+
+
+    public struct ChrClassesXPowerTypes
+    {
+        public uint id;
+        public uint field1;
+        public uint field2;
     };
 
     public struct ChrRaces
